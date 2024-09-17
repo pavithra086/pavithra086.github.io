@@ -1,0 +1,21 @@
+
+
+
+---
+layout: post
+title: java series 05 - Can a class implement two interfaces with the same method
+---
+Can a class implement two interfaces with the same method
+-> Can a class implement two interfaces with the same exact method signature?
+-> Yes, here I have an interface called Car, which has the go method, which is
+void and also a avoid
+stop method.
+-> And I also have a driverless interface with sit down and relax method and a
+void go method, the same
+go method we have in the car interface as well.
+-> Now the Honda class implements both the car and the driverless.
+It has no issues because it has to provide a implementation for the go
+method.
+-> So it overrides the go method and it provides the implementation.
+So we don't have the typical Diemen problem, which we see in case of
+extending classes.
